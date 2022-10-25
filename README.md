@@ -1,3 +1,3 @@
 # WAGroupInfo
 
-#### A browser extension to ge details about your whatsapp groups
+#### A browser extension to get details about your whatsapp groups
