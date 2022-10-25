@@ -1,0 +1,44 @@
+<!doctype html>
+
+<style type="text/css">
+    #mainPopup {
+        height: 200px;
+        width: 400px;
+        font-family: Helvetica, Ubuntu, Arial, sans-serif;
+        /*background: linear-gradient(45deg, #05a381, #05a3816e);*/
+        border-radius: 0.5rem;
+        padding: 2rem 2rem 0 2rem;
+        color: #183c32;
+    }
+    h1 {
+        font-size: 2em;
+    }
+    .button {
+        background: #007e63;
+        padding: 0.3rem 0.5rem;
+        border-radius: 0.3rem;
+        color: white;
+        font-weight: bold;
+        font-size: medium;
+    }
+    .button:hover {
+        cursor: pointer;
+        background: #004F3FFF;
+    }
+</style>
+<script src="page_action.js"></script>
+<script src="js/jspdf.debug.js"></script>
+<script src="js/html2canvas.min.js"></script>
+<script src="js/html2pdf.min.js"></script>
+<div id="mainPopup">
+    <h1>Hello!</h1>
+    <p style="font-size: medium;">Use this Free WhatsApp Group Assessment Tool to get audience related information for your groups.</p>
+    <div style="display: flex;">
+        <div id="process-button" class="button" style="margin-right: 1rem;">Process</div>
+        <div id="save-pdf-button" class="button">Save PDF</div>
+    </div>
+    <br>
+    <p><i>You can also save the report as PDF.</i></p>
+    <hr>
+    <div id="processing-text"></div>
+</div>
